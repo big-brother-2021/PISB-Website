@@ -11,8 +11,7 @@
     display: flex;
   }
   .parallax {
-    
-    margin:0;
+    margin: 0;
   }
 }
 
@@ -23,11 +22,10 @@
     height: 100vh;
     /* font-size: 10vw; */
   }
-  .parallax{
-    margin-top:-11vh;
+  .parallax {
+    margin-top: -11vh;
   }
   .Effect {
-   
     margin: 0;
     font-size: 28px;
   }

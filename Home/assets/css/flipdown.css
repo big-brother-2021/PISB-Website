@@ -3,7 +3,7 @@
 /********** Theme: dark **********/
 /* Font styles */
 .flipdown.flipdown__theme-dark {
-  font-family: 'Monteserrat',sans-serif;
+  font-family: "Monteserrat", sans-serif;
   font-weight: bold;
 }
 /* Rotor group headings */
@@ -11,21 +11,23 @@
   color: #142850;
 }
 /* Delimeters */
-.flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-.flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+.flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+.flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
   background-color: #344b7a;
 }
 /* Rotor tops */
 .flipdown.flipdown__theme-dark .rotor,
 .flipdown.flipdown__theme-dark .rotor-top,
 .flipdown.flipdown__theme-dark .rotor-leaf-front {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #324875;
 }
 /* Rotor bottoms */
 .flipdown.flipdown__theme-dark .rotor-bottom,
 .flipdown.flipdown__theme-dark .rotor-leaf-rear {
-  color: #EFEFEF;
+  color: #efefef;
   background-color: #3b578e;
 }
 /* Hinge */
@@ -41,25 +43,27 @@
 }
 /* Rotor group headings */
 .flipdown.flipdown__theme-light .rotor-group-heading:before {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 /* Delimeters */
-.flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-.flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-  background-color: #DDDDDD;
+.flipdown.flipdown__theme-light
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+.flipdown.flipdown__theme-light
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+  background-color: #dddddd;
 }
 /* Rotor tops */
 .flipdown.flipdown__theme-light .rotor,
 .flipdown.flipdown__theme-light .rotor-top,
 .flipdown.flipdown__theme-light .rotor-leaf-front {
   color: #222222;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
 }
 /* Rotor bottoms */
 .flipdown.flipdown__theme-light .rotor-bottom,
 .flipdown.flipdown__theme-light .rotor-leaf-rear {
   color: #333333;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 /* Hinge */
 .flipdown.flipdown__theme-light .rotor:after {
@@ -107,8 +111,8 @@
   content: attr(data-before);
 }
 
-.flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-  content: '';
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):before {
+  content: "";
   position: absolute;
   bottom: 20px;
   left: 115px;
@@ -117,8 +121,8 @@
   border-radius: 50%;
 }
 
-.flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-  content: '';
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+  content: "";
   position: absolute;
   bottom: 50px;
   left: 115px;
@@ -200,7 +204,7 @@
 }
 
 .flipdown .rotor:after {
-  content: '';
+  content: "";
   z-index: 2;
   position: absolute;
   bottom: 0px;
@@ -211,7 +215,6 @@
 }
 
 @media (max-width: 550px) {
-
   .flipdown {
     width: 312px;
     height: 70px;
@@ -246,18 +249,18 @@
     line-height: 20px;
   }
 
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+  .flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+  .flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
     left: 69px;
   }
 
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+  .flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):before {
     bottom: 13px;
     height: 8px;
     width: 8px;
   }
 
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+  .flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
     bottom: 29px;
     height: 8px;
     width: 8px;

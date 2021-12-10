@@ -21,7 +21,7 @@ nav .dropdown-menu {
 }
 
 nav .dropdown-item:hover {
-  background-color: #D1DDF4;
+  background-color: #d1ddf4;
 }
 
 /* text colors */
@@ -35,14 +35,13 @@ nav a:hover {
 }
 
 nav .dropdown-menu a {
-  color: #D7DEED;
+  color: #d7deed;
   transition: all 0.3s;
 }
 
 nav .dropdown-menu a:hover {
   color: #142850;
 }
-
 
 /* Arrow */
 nav span {
@@ -53,9 +52,6 @@ nav span:hover {
   color: #84c1ff;
 }
 
-
-
-
 #link-1b {
   transition: all 0.3s;
   cursor: pointer;
@@ -64,8 +60,6 @@ nav span:hover {
   padding-left: 0;
   padding-right: 0;
 }
-
-
 
 nav .dropdown {
   display: flex;

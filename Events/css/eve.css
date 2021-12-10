@@ -1,14 +1,13 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-padding-top: 65px;
 }
 
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 div.card-body {
@@ -25,11 +24,9 @@ div.container-fluid {
   }
 }
 
-
 #eve {
   padding: 50px;
   margin: 1rem;
-
 }
 
 #evelogo {
@@ -40,7 +37,7 @@ div.container-fluid {
 
 .container-fluid p {
   padding: 20px;
-  text-align:justify;
+  text-align: justify;
   font-size: 1.2vw;
 }
 
@@ -59,7 +56,7 @@ div.bttn-cont {
   border: 2px solid #142850;
   color: #142850;
   text-decoration: none;
-  font-size:1.2vw;
+  font-size: 1.2vw;
   /* font-family: 'Open Sans', sans-serif; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -205,14 +202,12 @@ div.bttn-cont {
   }
 }
 
-
-
 /* logo  */
 #logoe {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #logoe:hover {
@@ -271,7 +266,7 @@ div.bttn-cont {
 #seminar.card {
   margin: 0 1rem;
 }
-.col-md-3{
+.col-md-3 {
   margin-right: 5vw;
 }
 
@@ -279,9 +274,8 @@ div.bttn-cont {
   margin-top: 3vw;
 }
 
-div#spacing.col-md-4{
+div#spacing.col-md-4 {
   margin-top: -0.5vw;
- 
 }
 
 #spacingc {
@@ -300,13 +294,12 @@ div#spacing.col-md-4{
   /* display: flex; */
   margin-left: 2rem;
   color: #142850;
-
 }
-#credlogo{
+#credlogo {
   width: 100%;
   margin-left: 3vw;
 }
-#evelogoctd{
+#evelogoctd {
   margin-top: 10vw;
   margin-left: 5vw;
   width: 70%;
@@ -331,13 +324,12 @@ div#spacing.col-md-4{
   padding-left: 10px;
 }
 
-h2{
+h2 {
   font-size: 2vw;
 }
 
-
 @media only screen and (max-width: 768px) {
-  h2{
+  h2 {
     font-size: 8vw;
   }
   #innname {
@@ -445,7 +437,6 @@ h2{
   /* div.col-md-12 div.carouseli{
   margin-top: 50px;
 } */
- 
 
   .carouseli span {
     padding-top: 10px;
@@ -460,7 +451,7 @@ h2{
     border: 2px solid #142850;
     color: #142850;
     text-decoration: none;
-    font-size:4vw;
+    font-size: 4vw;
     /* font-family: 'Open Sans', sans-serif; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -492,7 +483,7 @@ h2{
   }
 
   #credlogo {
-    height:100%;
+    height: 100%;
     width: 50%;
     padding: 0.2rem;
     /* margin-left: 2rem; */
@@ -500,8 +491,7 @@ h2{
 
   p {
     padding: 5px;
-    font-family: 'Montserrat';
-
+    font-family: "Montserrat";
   }
 
   #maincont {
@@ -516,7 +506,6 @@ h2{
 
   #maincontsem {
     margin-top: -5vw;
-   
   }
 
   #maincontcred {
@@ -526,20 +515,16 @@ h2{
   /* typer */
   h2.Effect {
     font-size: 28px;
-    
   }
 
   .parallax h2 span {
-    font-size:80%;
+    font-size: 80%;
   }
 
   #heading .parallax {
     height: 100vh;
   }
-
 }
-
-
 
 div.col-md-12 {
   padding: 0rem;
@@ -559,7 +544,7 @@ div.carousel-item img.d-block.w-100 {
 
 .carouseli div {
   position: relative;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
   padding-top: 39.375%;
 }
 
@@ -580,7 +565,6 @@ div.carousel-item img.d-block.w-100 {
   overflow: auto;
   white-space: nowrap;
   word-wrap: normal;
-
 }
 
 .carouseli a {
@@ -592,7 +576,7 @@ div.carousel-item img.d-block.w-100 {
   /* ширина миниатюр */
   border: 1px solid rgba(0, 0, 0, 0);
   /* рамка вокруг миниатюр */
-  opacity: .7;
+  opacity: 0.7;
   text-decoration: none;
 }
 
@@ -617,12 +601,12 @@ div.carousel-item img.d-block.w-100 {
   right: 0em;
   bottom: 0em;
   left: 0em;
-  background: rgba(0, 0, 1, .1);
+  background: rgba(0, 0, 1, 0.1);
   transition: background 0s 9999999s;
 }
 
 .carouseli a:nth-of-type(1)::before {
-  background: rgba(255, 255, 254, .7);
+  background: rgba(255, 255, 254, 0.7);
 }
 
 .carouseli span:active a::before {
@@ -631,7 +615,7 @@ div.carousel-item img.d-block.w-100 {
 }
 
 .carouseli span:active a:active::before {
-  background: rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, 0.7);
   transition: background 0s;
 }
 
@@ -640,7 +624,6 @@ div.carousel-item img.d-block.w-100 {
   vertical-align: middle;
   /* убрать нижний отступ до рамки под картинкой */
 }
-
 
 /* typer */
 .parallax h2 span {
@@ -654,7 +637,6 @@ div.carousel-item img.d-block.w-100 {
   width: 100%;
   background-color: #f1f4fb;
   /* margin-bottom: 7vw; */
-
 }
 
 .Effect {
@@ -662,7 +644,7 @@ div.carousel-item img.d-block.w-100 {
   padding: 0;
   position: absolute;
   font-size: 440%;
-  
+
   width: 100%;
   color: #142850;
   background-color: #f1f4fb;
@@ -677,13 +659,13 @@ div.carousel-item img.d-block.w-100 {
   left: 0px;
 }
 
-@media only screen and (min-width:769px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   .Effect {
     margin: 0;
     padding: 0;
     position: absolute;
     font-size: 440%;
-    top:40%;
+    top: 40%;
     width: 100%;
     color: #142850;
     background-color: #f1f4fb;
@@ -693,18 +675,17 @@ div.carousel-item img.d-block.w-100 {
     /* transform: translateY(-50%); */
     letter-spacing: 0.8vw;
   }
-#spacing{
-  margin-top: 10vw;
-}
+  #spacing {
+    margin-top: 10vw;
+  }
 
-div#spacing.col-md-4 {
-
-  margin-top: 3vw;
-}
-#maincontcred {
-  margin-left:0;
-}
-#credlogo{
-  margin-top: -5vw;
-}
+  div#spacing.col-md-4 {
+    margin-top: 3vw;
+  }
+  #maincontcred {
+    margin-left: 0;
+  }
+  #credlogo {
+    margin-top: -5vw;
+  }
 }
