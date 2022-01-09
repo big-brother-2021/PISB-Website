@@ -818,6 +818,13 @@ body {
   animation: slide1 1s ease-in-out infinite;
 }
 
+.domain4 video {
+  width: 100%;
+}
+.domain3 video {
+  width: 100%;
+}
+
 @keyframes slide1 {
   0%,
   100% {
